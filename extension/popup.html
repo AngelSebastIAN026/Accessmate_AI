@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccessMate AI</title>
+
+    <link rel="stylesheet" href="popup.css">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+</head>
+<body>
+
+    <header>
+        <h2>AccessMate AI</h2>
+        <p>Your assistant for understanding websites</p>
+    </header>
+
+    <div id="pageStatus">● Ready to help with this page</div>
+
+    <main id="chatMessages">
+        <div class="message assistant">
+            Hi! I’m AccessMate AI. Ask me about this webpage, and I’ll help explain instructions or errors in simple words.
+        </div>
+    </main>
+
+    <section id="inputArea">
+        <textarea id="question" placeholder="Ask a question about this page..."></textarea>
+
+        <div class="controls">
+            <button id="clearButton" type="button">Clear chat</button>
+            <button id="sendButton" type="button">Send ↑</button>
+        </div>
+    </section>
+
+    <script src="popup.js"></script>
+</body>
+</html>
